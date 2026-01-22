@@ -16,9 +16,9 @@ export class Hero extends Person {
   constructor(alterEgo: string, age: number, realName: string) {
     super(realName);
 
-    this.alterEgo = alterEgo;
-    this.age = age;
-    this.realName = realName;
+    // this.alterEgo = alterEgo;
+    // this.age = age;
+    // this.realName = realName;
   }
 }
 const ironman = new Hero("Iron Man", 45, "Tony");
